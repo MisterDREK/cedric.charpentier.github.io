@@ -1,0 +1,554 @@
+body{
+    font:20px/1em arial, sans-serif;
+    background: #cfcfcf;
+    background-image: url(../images/1x/1x/Fichier5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+      white-space: nowrap;
+      overflow-y: clip;
+  }
+  
+  @font-face {
+    font-family: 'agelastregular';
+    src: url('../fonts/Agelast/agelast-mllam-webfont.woff2') format('woff2'),
+         url('../fonts/Agelast/agelast-mllam-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'anuratiregular';
+    src: url('../fonts/Anurati/anurati-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Anurati/anurati-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  html{
+    scroll-behavior: smooth
+  }
+
+  /*INTEGRITE DU SITE*/
+  
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #b9b9b9;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border: 2px solid white;
+  }
+  
+  /* PARTIE 1 DE L'ECRAN (MENU) */
+  
+  #ecran1 {
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    margin-right: 20vw;
+  }
+  
+  #update{
+    margin-top: 5vh;
+    margin-left: 45.5vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(0);
+   }
+  
+  #update:hover{
+    filter: invert(1);
+  }
+  
+  .title{
+    margin-top: 60vh;
+  }
+  
+  #title1{
+    color: black;
+    margin-left: 35vw;
+    font-family: 'anuratiregular';
+    font-weight: 100;
+    font-size: 90px;
+  }
+  
+  #subtitle1{
+    font-family: 'agelastregular';
+    font-weight: 100;
+    position: center;
+    color: black;
+    margin-left: 30vw;
+    font-size: 64px;
+  }
+  
+  .buttons{
+    margin-left: 43vw;
+    display: flex;
+    width: 275px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .buttonproject{
+    /*margin-left: 37vw;*/
+    filter: invert(0);
+    transition-duration: 0.5s;
+    position: relative;
+  }
+  
+  .buttonproject:hover{
+    filter: invert(1);
+  }
+  
+  #seeproject{
+    color: black;
+    font-family: 'agelastregular';
+    font-size: 14px;
+    position: relative;
+    max-width: 200px;
+  }
+  
+  .scroll{
+    filter: invert(0);
+    transition-duration: 0.5s;
+    position: relative;
+    display: inline-block;
+    margin-left: 2vw;
+  }
+  
+  .scroll:hover{
+    filter: invert(1);
+  }
+  
+  .bottombuttons{
+    margin-top: 10vh;
+    position: fixed;
+  }
+  
+  .biography{
+    margin-left: 1vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(0);
+  }
+  
+  .biography:hover{
+    filter: invert(1);
+  }
+  
+  #twitter{
+    margin-left: 78vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(1);
+    position: relative;
+   }
+  
+  #twitter:hover{
+    filter: invert(0);
+  }
+  
+  #discord{
+    margin-left: 1vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(1);
+  }
+  
+  #discord:hover{
+    filter: invert(0);
+  }
+  
+  #instagram{
+    margin-left: 1vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(1);
+  }
+  
+  #instagram:hover{
+    filter: invert(0);
+  }
+  
+  /* FIN */
+  
+  /*GALERIE DES IMAGES*/
+  #ecran2{
+    height: 50vh;
+    width: 200vw;
+    display: inline-block;
+    margin-right: 20vw;
+  }
+  
+  .projects{
+    display: flex;
+    height: 200px;
+  }
+  
+  #project1{
+    margin-top: 20vh;
+    margin-left: 5vw;
+    opacity: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+    scale: 100%;
+  }
+  
+  #project1:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+  
+  #project2{
+    margin-left: 20vw;
+    margin-top: 15vh;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block
+  }
+  
+  #project2:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+  
+  #project3{
+    margin-top: 20vh;
+    margin-left: 20vw;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+  }
+  
+  #project3:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+  
+  #project4{
+    margin-left: 20vw;
+    margin-top: 22vh;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+  }
+  
+  #project4:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+  
+  #project5{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+  }
+  
+  #project5:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+
+  #project6{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+  }
+  
+  #project6:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+
+  #project7{
+    margin-left: 20vw;
+    margin-top: 20vh;
+    opacity: 100%;
+    scale: 100%;
+    transition-duration: 0.5s;
+    display: inline-block;
+  }
+  
+  #project7:hover{
+    opacity: 40%;
+    scale: 125%;
+  }
+
+  /* FIN DE GALLERIE DES IMAGES */
+
+  /* CARROUSSEL 1 */
+
+#caroussel1{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images1{
+  display: flex;
+  animation-duration: 50s;
+  animation-name: Oeuvres1;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres1 {
+  0%{
+    transform: translateX(0);
+  }
+  12.5%{
+    transform: translateX(-2304px);
+  }
+  25%{
+    transform: translateX(-4608px);
+  }
+  37.5%{
+    transform: translateX(-6912px);
+  }
+  50%{
+    transform: translateX(-9216px);
+  }
+  62.5%{
+    transform: translateX(-11520px);
+  }
+  75%{
+    transform: translateX(-13824px);
+  }
+  87.5%{
+    transform: translateX(-16128px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+/* CARROUSSEL 2 */
+
+#caroussel2{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images2{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres2;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres2 {
+  0%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-2304px);
+  }
+  66%{
+    transform: translateX(-4608px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+/* CARROUSSEL 3 */
+
+#caroussel3{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images3{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres3;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres3 {
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-1792px);
+  }
+  50%{
+    transform: translateX(-3584px);
+  }
+  75%{
+    transform: translateX(-5376px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+/* CARROUSSEL 4 */
+
+#caroussel4{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images4{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres4;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres4 {
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(-2304px);
+  }
+  50%{
+    transform: translateX(-4608px);
+  }
+  75%{
+    transform: translateX(-6912px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+/* CARROUSSEL 2 */
+
+#caroussel5{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images5{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres5;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres5 {
+  0%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-2304px);
+  }
+  66%{
+    transform: translateX(-4608px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+/* CARROUSSEL 6 */
+
+#caroussel6{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images6{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres6;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres6 {
+  0%{
+    transform: translateX(0);
+  }
+  33%{
+    transform: translateX(-2304px);
+  }
+  66%{
+    transform: translateX(-4608px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+/* CARROUSSEL 7 */
+
+#caroussel7{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.images7{
+  display: flex;
+  animation-duration: 28.5s;
+  animation-name: Oeuvres7;
+  animation-iteration-count: infinite;
+}
+@keyframes Oeuvres7 {
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-384px);
+  }
+  100%{
+    transform: translateX(-0px);
+  }
+}
+
+  /*WHO AM I ?*/
+
+  .ecranmenubio{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    margin-right: 20vw;
+  }
+
+  #title1-2{
+    color: white;
+    margin-top: 62vh;
+    margin-left: 38vw;
+    font-family: 'anuratiregular';
+    font-weight: 100;
+    font-size: 90px;
+  }
+
+  .bottombuttons2{
+    margin-top: 45vh;
+  }
+
+  .menu{
+    margin-left: 1vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(0);
+  }
+  
+  .menu:hover{
+    filter: invert(1);
+  }
+
+  .ecranbio{
+    height: 97vh;
+    width: 120vw;
+    display: inline-block;
+    margin-right: 20vw;
+  }

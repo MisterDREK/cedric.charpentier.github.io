@@ -1,0 +1,128 @@
+body{
+    font:20px/1em arial, sans-serif;
+    background: rgb(0, 0, 0);
+      margin: 0;
+      white-space: nowrap;
+      overflow-y: clip;
+  }
+  
+  @font-face {
+    font-family: 'agelastregular';
+    src: url('../fonts/Agelast/agelast-mllam-webfont.woff2') format('woff2'),
+         url('../fonts/Agelast/agelast-mllam-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+    font-family: 'anuratiregular';
+    src: url('../fonts/Anurati/anurati-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Anurati/anurati-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  
+  html{
+    scroll-behavior: smooth
+  }
+
+  /*INTEGRITE DU SITE*/
+  
+  body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border: 3px solid black;
+  }
+
+   /*WHO AM I ?*/
+
+.ecranmenubio{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    margin-right: 20vw;
+  }
+
+  #title1-2{
+    color: white;
+    margin-top: 60vh;
+    margin-left: 38vw;
+    font-family: 'anuratiregular';
+    font-weight: 100;
+    font-size: 90px;
+  }
+
+  .bottombuttons2{
+    margin-top: 22vh;
+    display: inline-block;
+  }
+
+  .menu{
+    margin-left: 0.5vw;
+    transition-duration: 0.5s;
+    display: inline-block;
+    filter: invert(0);
+  }
+  
+  .menu:hover{
+    filter: invert(1);
+  }
+
+#twitter{
+  margin-left: 78vw;
+  transition-duration: 0.5s;
+  display: inline-block;
+  filter: invert(0);
+  position: relative;
+ }
+
+#twitter:hover{
+  filter: invert(1);
+}
+
+#discord{
+  margin-left: 1vw;
+  transition-duration: 0.5s;
+  display: inline-block;
+  filter: invert(0);
+}
+
+#discord:hover{
+  filter: invert(1);
+}
+
+#instagram{
+  margin-left: 1vw;
+  transition-duration: 0.5s;
+  display: inline-block;
+  filter: invert(0);
+}
+
+#instagram:hover{
+  filter: invert(1);
+}
+
+/* PROFILE */
+
+.ecranbio{
+  height: 100vh;
+  width: 200vw;
+  display: inline-block;
+  margin-right: 20vw;
+}
+
+#profiles{
+  width: 2472.5px;
+  height: 800px;
+  margin-top: 10vh;
+  display: inline-block;
+}
